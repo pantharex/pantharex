@@ -185,8 +185,8 @@ a:hover {
 }
 
 ul {
-    list-style: none; /* Remove default bullets */
-}
+     list-style: none; /* Remove default bullets */
+ }
 ul li{
     font-size: 16px;
     font-family: "Roboto Thin", serif;
@@ -200,6 +200,7 @@ ul li::before {
     margin-left: -1em; /* Also needed for space (tweak if needed) */
     font-size: 8px;
 }
+
 .skillslist{
     color: #8892B0;
     width: 180px;
@@ -212,7 +213,22 @@ ul li::before {
     animation: transitionIn 5s;
 }
 
-
+ol {
+    list-style: none; /* Remove default bullets */
+}
+ol li{
+    font-size: 16px;
+    font-family: "Roboto Thin", serif;
+}
+ol li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: aquamarine; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    font-weight: bold; /* If you want it to be bold */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    font-size: 8px;
+}
 
 /*resposive*/
 
