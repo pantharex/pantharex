@@ -24,6 +24,7 @@ body{
     z-index: 10;
     position: fixed;
     background-color: #0A192F;
+    border: aquamarine;
 }
 header{
     background: #0A192F;
@@ -135,10 +136,83 @@ header{
     height: auto;
 }
 
-.aboutme {
-    height: 500px;
+#aboutme {
+    height: 650px;
     background-color: #0A192F;
 }
+
+#abouthr{
+    color: #CCD6F6;
+    animation: transitionIn 5s;
+}
+#whoami{
+    color: aquamarine;
+    margin-bottom: 50px;
+    animation: transitionIn 5s;
+}
+
+#abouttabletitle{
+    width: 20%;
+    animation: transitionIn 5s;
+}
+.abouttable {
+    margin-left: 20%;
+    animation: transitionIn 5s;
+}
+#abouttableinfo{
+    width: 40%;
+    color: #8892B0;
+    animation: transitionIn 5s;
+}
+
+.pfp{
+    margin-left: 20%;
+    animation: transitionIn 5s;
+}
+hr {
+    border-top: 1px solid #303C55;
+    width: 400px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+    animation: transitionIn 5s;
+}
+.gturl {
+    color: aquamarine;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+}
+ul li{
+    font-size: 16px;
+    font-family: "Roboto Thin", serif;
+}
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: aquamarine; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    font-weight: bold; /* If you want it to be bold */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    font-size: 8px;
+}
+.skillslist{
+    color: #8892B0;
+    width: 180px;
+    padding-right: 20px;
+    font-size: 15px;
+    animation: transitionIn 5s;
+}
+.aboutlist{
+    margin-left: 21%;
+    animation: transitionIn 5s;
+}
+
+
 
 /*resposive*/
 
