@@ -1,9 +1,21 @@
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
+
 }
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: Verdana;
 }
 .wrapper{
     width: 100%;
@@ -21,6 +33,22 @@ header{
     background-position: center center;
     position: relative;
 }
+#headerabout {
+    animation: transitionIn 1s;
+}
+
+#headerexperience {
+    animation: transitionIn 2s;
+}
+
+#headerprojects {
+    animation: transitionIn 3s;
+}
+
+#headercontact {
+    animation: transitionIn 4s;
+    margin-right: 50px;
+}
 .nav-area{
     float: right;
     list-style: none;
@@ -36,17 +64,15 @@ header{
     padding: 5px 20px;
     font-family: poppins;
     font-size: 16px;
-    text-transform: uppercase;
 }
-#headercontact {
-    margin-right: 50px;
-}
+
 .nav-area li a:hover{
     background: aquamarine;
     color: #333;
 }
 .logo{
     float: left;
+    animation: transitionIn 1s;
 }
 .logo img{
     width: 10%;
@@ -56,26 +82,29 @@ header{
 .welcome-text{
     position: absolute;
     font-family: Verdana;
-    width: 600px;
+    width: 800px;
     height: 300px;
-    margin: 20% 20%;
+    margin: 10% 20%;
     text-align: left;
 }
 .welcome-text h1{
     text-align: left;
-    color: #fff;
-    text-transform: uppercase;
+    color: #CCD6F6;
     font-size: 60px;
+    margin-top: 1%;
+    animation: transitionIn 5s;
 }
 .welcome-text a{
     border: 1px solid #fff;
     padding: 10px 25px;
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 14px;
     margin-top: 20px;
     display: inline-block;
     color: aquamarine;
+    border-color: aquamarine;
+    margin-top: 5%;
+    animation: transitionIn 8s;
 }
 .welcome-text a:hover{
     background: aquamarine;
@@ -84,13 +113,31 @@ header{
 
 #introname {
     color: aquamarine;
+    font-family: "Roboto Light";
+    animation: transitionIn 4s;
+}
+
+#introdescription {
+    color: #8892B0;
+    margin-top: 5%;
+    width: 600px;
+    animation: transitionIn 7s;
+}
+
+#studentappdeveloper {
+    color: #8892B0;
+    animation: transitionIn 6s;
 }
 
 .content {
     width: 100%;
     position: relative;
-    top: 1000px;
     height: auto;
+}
+
+.aboutme {
+    height: 500px;
+    background-color: #0A192F;
 }
 
 /*resposive*/
