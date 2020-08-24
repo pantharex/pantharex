@@ -137,8 +137,9 @@ header{
 }
 
 #aboutme {
-    height: 650px;
+    height: 850px;
     background-color: #0A192F;
+    padding-bottom: 100px;
 }
 
 #abouthr{
@@ -158,6 +159,7 @@ header{
 .abouttable {
     margin-left: 20%;
     animation: transitionIn 5s;
+    margin-top: 4%;
 }
 #abouttableinfo{
     width: 40%;
@@ -229,6 +231,53 @@ ol li::before {
     margin-left: -1em; /* Also needed for space (tweak if needed) */
     font-size: 8px;
 }
+
+#experience {
+    height: 700px;
+    background-color: #0A192F;
+}
+
+.experiencetitletable {
+    margin-left: 30%;
+    animation: transitionIn 6s;
+    margin-top: 4%;
+}
+
+#whereiwork{
+    color: aquamarine;
+    margin-bottom: 50px;
+    animation: transitionIn 5s;
+}
+
+.experienceinfotable{
+    margin-left: 30%;
+    animation: transitionIn 6s;
+}
+
+.experiencetitleinfo {
+    color: #CCD6F6;
+    animation: transitionIn 6s;
+}
+
+.experiencebodyinfo{
+    color: #8892B0;
+    animation: transitionIn 6s;
+}
+
+#stremlogo{
+    padding-right: 30px;
+    animation: transitionIn 6s;
+}
+
+.stremcolor{
+    color: aquamarine;
+}
+.listspace{
+    padding-left: 10px;
+    width: 60%;
+}
+
+
 
 /*resposive*/
 
