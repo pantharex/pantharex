@@ -8,6 +8,7 @@
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
       <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <title>Hello, world!</title>
     </head>
     <body>
@@ -19,8 +20,8 @@
           <ol class="nav-area">
             <li id="headerabout"><a href="#aboutme">About</a></li>
             <li id="headerexperience"><a href="#experience">Experience</a></li>
-            <li id="headerprojects"><a href="#">Projects</a></li>
-            <li id="headercontact"><a href="#">Contact</a></li>
+            <li id="headerprojects"><a href="#projects">Projects</a></li>
+            <li id="headercontact"><a href="#contact">Contact</a></li>
           </ol>
         </div>
         <div class="welcome-text">
@@ -48,7 +49,7 @@
             <tr>
               <td id = "abouttableinfo">
                 <p>Hello! I'm Sahil, a second-year computer science student based in Alpharetta, GA.</p>
-                <p>I currently attend the <a href="https://www.gatech.edu/"><span class="gturl">Georgia Institute of Technology</span></a> with my threads including Artificial Intelligence and
+                <p>I currently attend the <a href="https://www.gatech.edu/"><span class="gturl">Georgia Institute of Technology</span></a> with my threads including Intelligence and
                   Information Internetworks. </p>
                 <p>I enjoy building all sorts of applications. Whether it may be a mobile or web app, I am ready to challenge myself
                   and learn new technologies. Although I do love expanding my knowledge with these projects, I would be thrilled
@@ -57,7 +58,7 @@
               </td>
               <td>
                 <div class="image-container">
-                  <img class = "pfp" src="pfp.jpg">
+                  <figure><img class = "pfp" src="pfp.jpg"></figure>
                 </div>
               </td>
             </tr>
@@ -95,7 +96,9 @@
           <table class="experienceinfotable">
             <tr>
               <td>
-                <img id = "stremlogo" src="stremlogo.jpg">
+                <div class="companylogo">
+                  <figure><img id = "stremlogo" src="stremlogo.jpg"></figure>
+                </div>
               </td>
               <td id="experienceinfo">
                 <h5 class = "experiencetitleinfo">Programming Instructor @ <a href="https://www.stremhq.com/"><span class="stremcolor">STREM HQ Tech Academy</a></span></h5>
@@ -108,7 +111,59 @@
               </td>
             </tr>
           </table>
-
+        </div>
+        <div id = "projects">
+          <table class = "projectstable">
+            <tr><
+              <td id = "projectstabletitle">
+                <h4 id ="projectstitle"> Some Projects I've Made</h4>
+              </td>
+              <td class="hr">
+                <hr>
+              </td>
+            </tr>
+          </table>
+          <div class = "hover">
+            <a href="https://play.google.com/store/apps/details?id=shush.android.app">
+              <figure><img id="shushimage" src="shushimage.JPG" alt="Shushhh App"></figure>
+            </a>
+          </div>
+          <p class="softwareused"> &nbsp; Android Studio  &nbsp; &nbsp;  Java  &nbsp; &nbsp;  XML</p>
+          <div class = "hover">
+            <a href="https://devpost.com/software/disastercast">
+              <figure><img id="disasterimage" src="hackgsudc.JPG" alt="DisasterCast"></figure>
+            </a>
+          </div>
+          <p class="softwareused"> &nbsp; Twilio  &nbsp; &nbsp;  MongoDB  &nbsp; &nbsp;  JavaScript</p>
+        </div>
+        <div id="contact">
+          <table class = "contacttitletable">
+            <tr><
+              <td id = "contacttitle">
+                <h4 id ="recruitme">Recruit Me!</h4>
+              </td>
+              <td class="hr">
+                <hr>
+              </td>
+            </tr>
+          </table>
+          <p class = "outroinfo">I'm currently looking for a software engineering/android app development internship for the coming summer. If you like what you see,
+          please check out my resume and reach out to me! I would love to talk to you and discuss potential candidacy for available roles. If I don't respond within the hour, then
+          I'm probably working on my next project! 😊</p>
+          <table id="footertr">
+            <tr id="trbottom">
+              <td class="bottomelement">
+                <p id="credits">Designed and Built by Sahil Sudhir</p>
+              </td>
+              <td>
+                <p><a href="mailto:sudhirsahil2001@gmail.com"><span class="email">sudhirsahil2001@gmail.com</span></a></p>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in/sahil-sudhir-826b1a145/" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/sahil_sudhir123/?hl=en" class="fa fa-instagram"></a>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
 
