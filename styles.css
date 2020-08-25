@@ -15,7 +15,7 @@
 
 }
 body{
-    font-family: Verdana;
+    font-family: Rubik, serif;
 }
 .wrapper{
     width: 100%;
@@ -54,7 +54,7 @@ header{
     float: right;
     list-style: none;
     margin-top: 30px;
-    font-family: Verdana;
+    font-family: Rubik, serif;
 }
 .nav-area li{
     display: inline-block;
@@ -63,7 +63,7 @@ header{
     color: aquamarine;
     text-decoration: none;
     padding: 5px 20px;
-    font-family: poppins;
+    font-family: Rubik, serif;
     font-size: 16px;
 }
 
@@ -82,7 +82,7 @@ header{
 }
 .welcome-text{
     position: absolute;
-    font-family: Verdana;
+    font-family: Rubik, serif;
     width: 800px;
     height: 300px;
     margin: 10% 20%;
@@ -114,7 +114,7 @@ header{
 
 #introname {
     color: aquamarine;
-    font-family: "Roboto Light";
+    font-family: Rubik, serif;
     animation: transitionIn 4s;
 }
 
@@ -191,7 +191,7 @@ ul {
  }
 ul li{
     font-size: 16px;
-    font-family: "Roboto Thin", serif;
+    font-family: Rubik, serif;
 }
 ul li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
@@ -220,7 +220,7 @@ ol {
 }
 ol li{
     font-size: 16px;
-    font-family: "Roboto Thin", serif;
+    font-family: Rubik, serif;
 }
 ol li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
